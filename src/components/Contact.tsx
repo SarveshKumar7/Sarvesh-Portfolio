@@ -11,27 +11,42 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
+                href="https://www.linkedin.com/in/sarveshkumar7/"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — akashrmalhotra
+                LinkedIn — sarveshkumar7
+              </a>
+            </p>
+            <p>
+              <a
+                href="https://github.com/SarveshKumar7"
+                target="_blank"
+                rel="noreferrer"
+                data-cursor="disable"
+              >
+                GitHub — SarveshKumar7
+              </a>
+            </p>
+            <h4>Contact</h4>
+            <p>Phone — +91 7972705442</p>
+            <p>
+              Resume — 
+              <a href="https://drive.google.com/file/d/1PXWWaIkcs35CV11-eOaz49ui0jOhUncm/view?usp=drivesdk" target="_blank" rel="noreferrer">
+                View PDF
               </a>
             </p>
             <h4>Education</h4>
             <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
+              SRM Institute of Science and Technology — B.Tech, Computer Science
             </p>
-            <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
-            </p>
+            <p>CGPA: 9.13 (Aug 2023 — May 2027)</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/akashrmalhotra"
+              href="https://github.com/SarveshKumar7"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -40,7 +55,16 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://leetcode.com/u/sk9980129/"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              LeetCode <MdArrowOutward />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sarveshkumar7/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -48,28 +72,10 @@ const Contact = () => {
             >
               LinkedIn <MdArrowOutward />
             </a>
-            <a
-              href="https://www.youtube.com/@Leftbraincoder"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              YouTube <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/leftbraincoder/"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Designed and Developed <br /> by <span>Sarvesh Kumar</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

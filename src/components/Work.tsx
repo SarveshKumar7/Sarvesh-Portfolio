@@ -5,32 +5,25 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "Intelligent Document Analyst",
+    category: "AI-powered Q&A (RAG)",
+    tools: "Python, Transformers, FAISS, RAG",
+    image: "/images/doc-analyst.png",
+    link: "https://github.com/SarveshKumar7/Intelligent-Document-Analyst-using-Deep-Learning-Retrieval-Augmented-Generation-RAG-",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "Travel Recommendation System",
+    category: "KNN Recommender",
+    tools: "Python, Pandas, scikit-learn (KNN), Flask API",
+    image: "/images/travel-rec.png",
+    link: "https://github.com/SarveshKumar7/Travel-Recommendation-System",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
-  },
-  {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "Food Delivery WebApp",
+    category: "Full-stack Delivery App",
+    tools: "React, Node.js, Express, MongoDB",
+    image: "/images/food-delivery.png",
+    link: "https://github.com/SarveshKumar7/FoodDelWebApp",
   },
 ];
 

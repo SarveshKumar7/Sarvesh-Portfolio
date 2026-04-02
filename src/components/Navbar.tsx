@@ -20,8 +20,8 @@ const Navbar = () => {
       ignoreMobileResize: true,
     });
 
-    smoother.scrollTop(0);
-    smoother.paused(true);
+    // Leave smoother running by default so native scroll works correctly.
+    // It will be paused/unpaused by the loading animation module when needed.
 
     let links = document.querySelectorAll(".header ul a");
     links.forEach((elem) => {
@@ -38,21 +38,30 @@ const Navbar = () => {
     window.addEventListener("resize", () => {
       ScrollSmoother.refresh(true);
     });
+    return () => {
+      try {
+        if (smoother && typeof smoother.kill === "function") {
+          smoother.kill();
+        }
+      } catch (e) {
+        // ignore cleanup errors
+      }
+    };
   }, []);
   return (
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          AM
+          SK
         </a>
         <a
-          href="https://www.linkedin.com/in/akashrmalhotra/"
+          href="https://www.linkedin.com/in/sarveshkumar7/"
           className="navbar-connect"
           data-cursor="disable"
           target="_blank"
           rel="noreferrer"
         >
-          linkedin.com/in/akashrmalhotra
+          linkedin.com/in/sarveshkumar7
         </a>
         <ul>
           <li>

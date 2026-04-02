@@ -11,6 +11,7 @@ interface Props {
 const WorkImage = (props: Props) => {
   const [isVideo, setIsVideo] = useState(false);
   const [video, setVideo] = useState("");
+  const [imageError, setImageError] = useState(false);
   const handleMouseEnter = async () => {
     if (props.video) {
       setIsVideo(true);
@@ -36,7 +37,17 @@ const WorkImage = (props: Props) => {
             <MdArrowOutward />
           </div>
         )}
-        <img src={props.image} alt={props.alt} />
+        {!imageError ? (
+          <img
+            src={props.image}
+            alt={props.alt}
+            onError={() => setImageError(true)}
+          />
+        ) : (
+          <div className="work-image-placeholder" aria-hidden>
+            <div className="work-image-placeholder-in">{props.alt || "Project"}</div>
+          </div>
+        )}
         {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
       </a>
     </div>
